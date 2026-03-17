@@ -59,7 +59,16 @@ O sistema permite:
 
 ## ⚙️ Como executar
 
+### 📋 Pré-requisitos
+
+- Compilador C (GCC recomendado)
+- Sistema operacional Windows (devido ao uso de `conio.h` e `windows.h`)
+
+---
+
 ### 🔧 Compilação
 
+No terminal, navegue até a pasta do projeto e execute:
+
 ```bash
-gcc main.c -o puzzle
+gcc 8-Puzzle_com_AI(final).c -o puzzle
