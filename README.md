@@ -56,6 +56,13 @@ O sistema permite:
   - Ponteiro para estado pai
 
 ---
+## 🎯 Objetivo do projeto
+
+Este projeto tem como objetivo aplicar algoritmos clássicos de busca
+em Inteligência Artificial para resolver o problema do 8-puzzle,
+explorando o espaço de estados até encontrar a solução.
+
+---
 
 ## ⚙️ Como executar
 
@@ -71,4 +78,4 @@ O sistema permite:
 No terminal, navegue até a pasta do projeto e execute:
 
 ```bash
-gcc 8-Puzzle_com_AI(final).c -o puzzle
+gcc src/main.c -o puzzle
